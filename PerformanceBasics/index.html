@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Performance Basics</title>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300|Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="../css/main.css">
+  </head>
+  <body>
+    <main class="slides">
+        <section data-name="intro" class="hero">
+					<h1>Performance Basics</h1>
+				</section>
+				<section data-name="next" class="hero">
+					<h1>It's Slow... What do I do?</h1>
+				</section>
+        <section data-name="basics">
+					<h1>Handling the situation like a pro</h1>
+          <ul>
+            <li>Don't ass-u-me</li>
+            <li>Know your enemies and your weapons</li>
+            <li>Ready... Set... Measure, measure and measure</li>
+          </ul>
+				</section>
+        <section data-name="enemies">
+          <h1>Know your enemies</h1>
+          <ul>
+            <li>Latency</li>
+            <li>Script complexity</li>
+            <li>Rendering</li>
+          </ul>
+        </section>
+        <section data-name="latency-network">
+          <h1>Latency - Network</h1>
+          <h2>Causes</h2>
+          <ul>
+            <li>Bandwidth</li>
+            <li>DNS resolution</li>
+            <li>Concurrent connections</li>
+            <li>Missing optimisations such as compression</li>
+            <li>Too many calls to server</li>
+          </ul>
+          <h2>Tools</h2>
+          <ul>
+            <li>Network tab on Chrome dev tools</li>
+            <li>Bandwidth throttling</li>
+            <li>Fiddler/Charles for advance, resource based throttling</li>
+          </ul>
+        </section>
+        <section data-name="latency-ttfb">
+          <h1>Latency - Server response times</h1>
+          <h2>Causes</h2>
+          <ul>
+            <li>Overloaded servers</li>
+            <li>Delays at intermediaries</li>
+          </ul>
+          <h2>Tools</h2>
+          <ul>
+            <li>Network tab on Chrome dev tools
+          </ul>
+        </section>
+        <section data-name="ScriptComplexity">
+          <h1>Script complexity</h1>
+          <h2>Causes</h2>
+          <ul>
+            <li>Complex code</li>            
+            <li>Inefficient algorithms</li>
+          </ul>
+          <h2>Tools</h2>
+          <ul>
+            <li>Profiler in Chrome dev tools</li>
+          </ul>
+        </section>
+        <section data-name="Rendering">
+          <h1>Rendering</h1>
+          <h2>Anatomy of rendering</h2>
+          <ul>
+            <li>Recalculate Style</li>
+            <li>Layout</li>
+            <li>Paint</li>
+            <li>Composite Layers</li>
+          </ul>
+          <h2>Tools</h2>
+          <ul>
+            <li>Timeline in Chrome dev tools</li>
+          </ul>
+        </section>
+        <section data-name="Thankyou" class="hero">
+          <h1>Thank you!</h1>
+        </section>
+    </main>
+    <script src="../js/slides.js"></script>
+  </body>
+</html>

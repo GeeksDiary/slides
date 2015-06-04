@@ -1,0 +1,8 @@
+{
+  "name": "Slides",
+  "dependencies": {
+    "gulp": "^3.8.11",
+    "gulp-sass": "^2.0.1",
+    "gulp-server-livereload": "^1.4.0"
+  }
+}
