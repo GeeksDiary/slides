@@ -1,0 +1,32 @@
+body {
+  font-family: 'Open Sans', 'Helvetica', sans-serif;
+  font-weight: 300;
+  font-size: 21px; }
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+main {
+  margin: 35px 0; }
+
+.slides section {
+  text-align: center;
+  display: none; }
+  .slides section h1, .slides section h2, .slides section h3 {
+    font-family: 'Roboto Condensed', sans-serif; }
+  .slides section h1 {
+    font-size: 39px; }
+  .slides section h2 {
+    font-size: 25px; }
+  .slides section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; }
+  .slides section.active {
+    display: block;
+    animation: fadeIn 2s; }
+  .slides section.hero h1 {
+    margin: 250px 0; }
